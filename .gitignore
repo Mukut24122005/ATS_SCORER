@@ -1,0 +1,7 @@
+.env
+
+**/.streamlit/secrets.toml
+backend/logs/*.log
+/backend/ml_model/finetuned-bert/
+
+.env.example
