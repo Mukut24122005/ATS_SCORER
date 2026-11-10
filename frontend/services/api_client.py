@@ -3,7 +3,12 @@ from typing import Any, Dict, List
 import requests
 import streamlit as st
 
+<<<<<<< HEAD
 DEFAULT_BACKEND_URL = "http://localhost:8000"
+=======
+
+DEFAULT_BACKEND_URL = "https://ats-scorer-g40f.onrender.com"
+>>>>>>> 32fdf98a0968057e3f11e4a688d106aa926cbba4
 
 def _backend_url() -> str:
     try:
